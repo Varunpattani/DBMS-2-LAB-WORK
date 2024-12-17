@@ -110,12 +110,3 @@ Part – B
 
 7. Drop the “Computer” database.
 -->db.dropDatabase()
-
-
-Part – C (Perform following operation using UI)
-1. Create a new database named “Computer”.
-2. Create a collection named “Faculty” in the “Computer” database.
-3. Insert a below documents into “Faculty” collection. 
-4. Display all the documents of “Faculty” collection.
-5. Drop the “Faculty” collection.
-6. Drop the “Computer” database.
