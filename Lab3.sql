@@ -57,7 +57,7 @@ VALUES
  (204, 'Project Delta', '2020-10-10', '2021-10-09', 4),
  (205, 'Project Epsilon', '2024-04-01', '2025-03-31', 5);
 
--- Part – A
+-- Part â€“ A
 --1. Create Stored Procedure for Employee table As User enters either First Name or Last Name and based
 --on this you must give EmployeeID, DOB, Gender & Hiredate.
 create or alter proc PR_FNAME_LNAME
@@ -112,8 +112,8 @@ begin
 end
 
 
---Part – B
---6. Create a Procedure that accepts Gender’s first letter only and based on that employee details will be
+--Part â€“ B
+--6. Create a Procedure that accepts Genderâ€™s first letter only and based on that employee details will be
 --served.
 create or alter proc PR_GENDER
 @gen varchar(1)
@@ -147,7 +147,7 @@ begin
 end
 
 exec PR_LOCATION 'dumb'
---Part – C
+--Part â€“ C
 --9. Create a procedure that will accepts From Date & To Date and based on that he/she will retrieve Project
 --related data.
 create or alter proc PR_PROJECT_DATE
